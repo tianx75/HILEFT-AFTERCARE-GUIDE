@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Ultimate Beauty Clinic - Home Care Card</title>
+<style>
+  :root {
+    --primary: #0a1628; /* Mélykék a logóból */
+    --accent: #2d7dd2;
+    --gold: #b2945e;   /* Prémium arany */
+  }
+
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f0f0; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+
+  .card {
+    width: 380px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    border: 1px solid #d4af37;
+  }
+
+  .card-header {
+    background: var(--primary);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--gold);
+  }
+
+  .card-header h1 { margin: 0; font-size: 22px; letter-spacing: 1px; text-transform: uppercase; }
+  .card-header p { margin: 8px 0 0; font-size: 12px; color: var(--gold); font-weight: bold; letter-spacing: 2px; }
+
+  .card-body { padding: 25px; }
+
+  .distributor-tag {
+    background: var(--gold);
+    color: white;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+
+  .info-box {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .protocol-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .protocol-label { color: #64748b; }
+  .protocol-value { font-weight: 600; color: var(--primary); }
+
+  .tips {
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.6;
+    padding-left: 0;
+  }
+
+  .tips li { margin-bottom: 8px; list-style: none; position: relative; padding-left: 20px; }
+  .tips li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: bold; }
+
+  input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px dashed var(--gold);
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary);
+  }
+
+  .card-footer {
+    text-align: center;
+    padding: 20px;
+    background: #f1f5f9;
+    font-size: 12px;
+  }
+  .card-footer a { color: var(--accent); text-decoration: none; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="card-header">
+    <h1>The Ultimate Beauty Clinic</h1>
+    <p>HILEFT AFTERCARE GUIDE</p>
+  </div>
+
+  <div class="card-body">
+    <div class="distributor-tag">Kizárólagos forgalmazó: HU & BE</div>
+
+    <div class="section-title">✨ Fenntartó Protokoll</div>
+    <div class="info-box">
+      <div class="protocol-item">
+        <span class="protocol-label">LED Maszk használat:</span>
+        <span class="protocol-value"><input type="text" value="3x"> / hét</span>
+      </div>
+      <div class="protocol-item">
+        <span class="protocol-label">Kezelési idő (LED):</span>
+        <span class="protocol-value"><input type="text" value="15"> perc</span>
+      </div>
+      <div class="protocol-item">
+        <span class="protocol-label">Következő kezelés:</span>
+        <span class="protocol-value"><input type="text" value="4 hét"> múlva</span>
+      </div>
+    </div>
+
+    <div class="section-title">💡 Szakértői Tanácsok</div>
+    <ul class="tips">
+      <li>Fokozott folyadékbevitel (min. 2.5L víz naponta).</li>
+      <li>Fényvédő (SPF 50) használata reggelente kötelező.</li>
+      <li>Használja az Ultima szérumot a regeneráció maximalizálásáért.</li>
+    </ul>
+  </div>
+
+  <div class="card-footer">
+    THE ULTIMATE BEAUTY EXPERIENCE<br>
+    <a href="https://theultimatebeauty.net">theultimatebeauty.net</a>
+  </div>
+</div>
+
+</body>
+</html>
